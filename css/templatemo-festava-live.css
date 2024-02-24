@@ -171,6 +171,11 @@ strong {
   transition: transform 0.2s 0.1s;
 }
 
+.FuenteB {
+  font-family: "Outfit", sans-serif;
+  color: var(--gray-color);
+}
+
 .link-fx-1 .icon {
   position: absolute;
   right: 0;
@@ -494,9 +499,6 @@ strong {
   height: 100%;
 }
 
-/*---------------------------------------
-  ABOUT              
------------------------------------------*/
 .about-section {
   background-image: url("../images/edward-unsplash-blur.jpg");
   background-color: #704010;
@@ -505,9 +507,15 @@ strong {
   position: relative;
 }
 
+.img-tiny {
+  width: 2em;
+  height: 2em;
+}
+
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
+  margin: auto;
 }
 
 .about-text-wrap {
