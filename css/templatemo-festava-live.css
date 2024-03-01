@@ -703,15 +703,15 @@ strong {
 }
 
 .schedule-table .dota-background-image {
-  background-image: url("../images/dota.jpg");
+  background-image: url("");
 }
 
 .schedule-table .futsal-background-image {
-  background-image: url("../images/futsal.jpg");
+  background-image: url("");
 }
 
 .schedule-table .basket-background-image {
-  background-image: url("../images/basket.jpg");
+  background-image: url("");
 }
 
 .schedule-table .voley-background-image {
@@ -719,7 +719,7 @@ strong {
 }
 
 .schedule-table .left-background-image {
-  background-image: url("../images/left.jpg");
+  background-image: url("");
 }
 
 .table-background-image-wrap {
