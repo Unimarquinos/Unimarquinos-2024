@@ -751,14 +751,18 @@ strong {
   background-image: url("../images/pricing_l4d2_transparent.png");
   background-size: cover;
   background-position: center;
-  /* Otros estilos si es necesario */
+}
+
+.torneo-deportes {
+  background-image: url("../images/futsalYvoley.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .torneo-dota {
   background-image: url("../images/pricing_dota2_transparent.png");
   background-size: cover;
   background-position: center;
-  /* Otros estilos si es necesario */
 }
 
 .pricing-thumb h3 small {
