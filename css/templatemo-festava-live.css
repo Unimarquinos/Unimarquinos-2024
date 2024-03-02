@@ -765,6 +765,11 @@ strong {
   background-position: center;
 }
 
+.conferencia {
+  background-image: url("../images/Conferencia.png");
+  background-position: center;
+}
+
 .pricing-thumb h3 small {
   display: inline-block;
   font-size: var(--p-font-size);
