@@ -294,7 +294,7 @@ strong {
 -----------------------------------------*/
 .custom-btn {
   background: var(--custom-btn-bg-color);
-  border: 2px solid transparent;
+  border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--btn-font-size);
@@ -302,6 +302,7 @@ strong {
   line-height: normal;
   transition: all 0.3s;
   padding: 10px 20px;
+
 }
 
 .custom-btn:hover {
@@ -745,6 +746,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   padding: 50px;
+  height: 100%;
 }
 
 .torneo-left4dead {
@@ -888,6 +890,8 @@ strong {
 
 .site-footer-links {
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-footer-link-item {
@@ -939,6 +943,25 @@ strong {
 
 .social-icon-link span:hover::before {
   animation: spinAround 2s linear infinite;
+}
+
+.title-eventos-presenciales{
+  margin-top: 1.5rem;
+}
+
+.content-organizadores{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-organizadores-images{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.content-organizadores-images .artists-image{
+  height: 550px;
 }
 
 @keyframes spinAround {
@@ -1030,6 +1053,15 @@ strong {
     font-size: 14px;
     padding: 10px 20px;
   }
+  
+  .content-organizadores-images{
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .content-organizadores-images .artists-image{
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1051,5 +1083,17 @@ strong {
 
   h5 {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .site-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav{
+    margin-right: 1rem !important;
   }
 }
