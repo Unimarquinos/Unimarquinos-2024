@@ -302,7 +302,6 @@ strong {
   line-height: normal;
   transition: all 0.3s;
   padding: 10px 20px;
-
 }
 
 .custom-btn:hover {
@@ -648,6 +647,15 @@ strong {
   background-position: center;
   background-size: cover;
 }
+
+.schedule-section2 {
+  background-image: url("../images/programacion.jpg");
+  background-color: #242424;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .table-responsive {
   filter: drop-shadow(2px 2px 4px #606060);
 }
@@ -945,22 +953,22 @@ strong {
   animation: spinAround 2s linear infinite;
 }
 
-.title-eventos-presenciales{
+.title-eventos-presenciales {
   margin-top: 1.5rem;
 }
 
-.content-organizadores{
+.content-organizadores {
   display: flex;
   flex-direction: column;
 }
 
-.content-organizadores-images{
+.content-organizadores-images {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
 
-.content-organizadores-images .artists-image{
+.content-organizadores-images .artists-image {
   height: 550px;
 }
 
@@ -1053,13 +1061,13 @@ strong {
     font-size: 14px;
     padding: 10px 20px;
   }
-  
-  .content-organizadores-images{
+
+  .content-organizadores-images {
     flex-direction: column;
     gap: 0;
   }
-  
-  .content-organizadores-images .artists-image{
+
+  .content-organizadores-images .artists-image {
     height: 350px;
   }
 }
@@ -1086,14 +1094,14 @@ strong {
   }
 }
 
-@media screen and (min-width: 1024px){
-  .site-title{
+@media screen and (min-width: 1024px) {
+  .site-title {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .navbar-nav{
+  .navbar-nav {
     margin-right: 1rem !important;
   }
 }
